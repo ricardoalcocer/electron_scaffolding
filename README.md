@@ -1,4 +1,6 @@
-# Bonobo Uploader
+# Electron Scaffolding
+
+Empty electron project that provides a basic structure for native cross-platform desktop apps
 
 ### Project structure
 
