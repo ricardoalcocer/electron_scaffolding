@@ -6,7 +6,7 @@ Empty electron project that provides a basic structure for native cross-platform
 
 ### Usage
 
-1. Clone this repo
+1. Clone this repo by running `git clone git@github.com:ricardoalcocer/electron_scaffolding.git`
 2. Install dependencies by running `npm install`
 3. Start the project by running `npm start`
 4. Package the app by running `npm run package-mac`
