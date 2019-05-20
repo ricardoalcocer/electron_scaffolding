@@ -43,3 +43,7 @@ Empty electron project that provides a basic structure for native cross-platform
 📄 package.json
 📄 README.md
 ```
+
+### TO DO
+
+* Create `controllers` folder to store controllers for each view 
