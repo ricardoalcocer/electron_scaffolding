@@ -4,6 +4,13 @@ Empty electron project that provides a basic structure for native cross-platform
 
 ![](http://drops.ricardoalcocer.com/drops/Screen%20Shot%202019-05-20%20at%202.02.24%20PM.png)
 
+### Usage
+
+1. Clone this repo
+2. Install dependencies by running `npm install`
+3. Start the project by running 'npm start'
+4. Package the app by running 'npm run package-mac'
+
 ### Project structure
 
 ```
