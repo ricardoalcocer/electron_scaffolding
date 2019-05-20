@@ -1,6 +1,6 @@
 'use strict'
 
-const { app,dialog }    = require('electron')
+const { app }    = require('electron')
 const path              = require('path')
 const window            = require('electron-window')
 const winPath           = path.resolve(__dirname,'views',process.platform,'mainwindow.html'); //experiment for view organization
