@@ -46,4 +46,10 @@ Empty electron project that provides a basic structure for native cross-platform
 
 ### TO DO
 
-* Create `controllers` folder to store controllers for each view 
+* Create `controllers` folder to store controllers for each view
+
+## Useful tools
+
+- [Put your app on the system tray](https://electronjs.org/docs/api/tray)
+- [Generate App Icons](https://www.npmjs.com/package/electron-icon-maker)
+- [Blog post about app Icons issues](https://medium.com/fantageek/changing-electron-app-icon-acf26906c5ad)
