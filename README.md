@@ -31,10 +31,13 @@ Empty electron project that provides a basic structure for native cross-platform
 📁 views
     📁 darwin
         📄 mainwindow.html
+        📄 mainwindow.css
     📁 linux
         📄 mainwindow.html
+        📄 mainwindow.css
     📁 win32
         📄 mainwindow.html
+        📄 mainwindow.css
 📄 .gitignore
 📄 main.js
 📄 package.json
