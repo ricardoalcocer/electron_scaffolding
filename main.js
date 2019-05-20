@@ -1,6 +1,6 @@
 'use strict'
 
-const { app }    = require('electron')
+const { app }           = require('electron')
 const path              = require('path')
 const window            = require('electron-window')
 const winPath           = path.resolve(__dirname,'views',process.platform,'mainwindow.html'); //experiment for view organization
@@ -50,7 +50,7 @@ app.on('window-all-closed', () => {    // On OSX, quit when all windows are clos
 // quit app
 function doQuit(){
     try {
-        conn.close();
+        //
     }catch(e){
         //
     }
