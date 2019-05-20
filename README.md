@@ -1,6 +1,6 @@
 # Electron Scaffolding
 
-Empty electron project that provides a basic structure for native cross-platform desktop apps
+Empty Electron MVC-style project that provides a basic structure for native cross-platform desktop apps
 
 ![](http://drops.ricardoalcocer.com/drops/Screen%20Shot%202019-05-20%20at%202.02.24%20PM.png)
 
@@ -15,23 +15,27 @@ Empty electron project that provides a basic structure for native cross-platform
 
 ```
 📁 assets
+    📁 css
+    📁 fonts
     📁 icons
         📁 darwin
             📄 icon.icns
         📁 png
             📄 16x16.png
+            📄 1024x1024.png
         📁 win32
             📄 icon.ico
-📁 bindings
+📁 bindings                         Code for view/controller binding
     📄 mainwindow.js
-📁 css
-📁 fonts
+📁 controllers
+    📄 mainwindow.js                Controller code
+📁 lib                              Shared libraries
 📁 menus
-    📄 mainwindow.js
+    📄 mainwindow.js                Menu files
 📁 views
-    📁 darwin
-        📄 mainwindow.html
-        📄 mainwindow.css
+    📁 darwin                       HTML and CSS for App Windows
+        📄 mainwindow.html          
+        📄 mainwindow.css           
     📁 linux
         📄 mainwindow.html
         📄 mainwindow.css
@@ -39,14 +43,14 @@ Empty electron project that provides a basic structure for native cross-platform
         📄 mainwindow.html
         📄 mainwindow.css
 📄 .gitignore
-📄 main.js
+📄 main.js                          Main bootstrap script
 📄 package.json
 📄 README.md
 ```
 
 ### TO DO
 
-* Create `controllers` folder to store controllers for each view
+* Add Metro-UI-CSS to Windows view
 
 ## Useful tools
 
