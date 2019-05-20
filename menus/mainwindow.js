@@ -88,7 +88,7 @@ const template = [
     submenu: [
       {
         label: 'Learn More',
-        click () { require('electron').shell.openExternal('https://bonoboapp.io') }
+        click () { require('electron').shell.openExternal('https://github.com/ricardoalcocer/electron_scaffolding') }
       }
     ]
   }
