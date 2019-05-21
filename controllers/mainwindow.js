@@ -7,6 +7,10 @@ module.exports = function() {
     const winPath           = path.resolve(__dirname,'..','views',process.platform,'mainwindow.html'); //experiment for view organization
     const ipcMain           = require('electron').ipcMain;
 
+    // to instantiate and use a user-defined lib
+    const tools             = require("../lib/sharedlib.js"); // a library of app-wide funtions
+    console.log(tools.toUpperCase({msg:'hello'})); // testing the library (look at the console)
+
     var winArgs             = ''; // declaring in case I use it
     let mainWindow;
 
