@@ -4,7 +4,9 @@ module.exports = function() {
     const { app }           = require('electron')
     const path              = require('path')
     const window            = require('electron-window')
-    const winPath           = path.resolve(__dirname,'..','views',process.platform,'mainwindow.html'); //experiment for view organization
+    const winPath           = path.resolve(__dirname,'..','views',process.platform,'mainwindow.html');
+    // impersonate a Windows computer
+    //const winPath           = path.resolve(__dirname,'..','views','win32','mainwindow.html');
     const ipcMain           = require('electron').ipcMain;
 
     // to instantiate and use a user-defined lib
@@ -21,15 +23,14 @@ module.exports = function() {
     app.on('ready', () => {
         mainWindow  = window.createWindow({
             width: 500,
-            height: 230,
-            resizable: false,
-            maximizable: false,
+            height: 330,
+            resizable: true,
+            maximizable: true,
             minimizable: true,
-            titleBarStyle: 'hidden',
+            titleBarStyle: (process.platform == 'darwin'?'hidden':'default'),
             webPreferences: {
                 nodeIntegration: true // to allow screen to screen communication
             },
-            minHeight: 800,
             icon: path.join(__dirname, '../assets/icons/png/64x64.png')
         })
 
