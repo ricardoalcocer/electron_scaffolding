@@ -72,7 +72,7 @@ module.exports = function() {
     })
 
     ipcMain.on('synMessage', (event, args) => {
-     event.returnValue = 'You sent: ' + args + '. Main said I received your Sync message.';
+     event.returnValue = 'You sent: ' + args + '.\n Main said: I received your Sync message.';
     });
 
     // ####################################################################################
