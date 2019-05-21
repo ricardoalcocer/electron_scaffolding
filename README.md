@@ -1,6 +1,8 @@
 # Electron Scaffolding
 
-Empty Electron MVC-style project that provides a basic structure for native cross-platform desktop apps
+Empty Electron MVC-style project that provides a basic structure for native cross-platform desktop apps.
+The project uses [PhotonKit](https://github.com/connors/photon) for Mac-style UI and [Metro-UI-CSS](https://metroui.org.ua) for Windows-style UI.
+
 
 ![](http://drops.ricardoalcocer.com/drops/Screen%20Shot%202019-05-20%20at%202.02.24%20PM.png)
 
@@ -34,8 +36,8 @@ Empty Electron MVC-style project that provides a basic structure for native cros
     📄 mainwindow.js                Menu files
 📁 views
     📁 darwin                       HTML and CSS for App Windows
-        📄 mainwindow.html          
-        📄 mainwindow.css           
+        📄 mainwindow.html
+        📄 mainwindow.css
     📁 linux
         📄 mainwindow.html
         📄 mainwindow.css
@@ -47,10 +49,6 @@ Empty Electron MVC-style project that provides a basic structure for native cros
 📄 package.json
 📄 README.md
 ```
-
-### TO DO
-
-* Add Metro-UI-CSS to Windows view
 
 ## Useful tools
 
