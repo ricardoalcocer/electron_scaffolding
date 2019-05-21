@@ -67,6 +67,13 @@ module.exports = function() {
     // IPC bindings
     // ####################################################################################
 
+    ipcMain.on('buttonclick', function (event, arg) {
+      mainWindow.webContents.send('buttonclick', arg)
+    })
+
+    ipcMain.on('synMessage', (event, args) => {
+     event.returnValue = 'You sent: ' + args + '. Main said I received your Sync message.';
+    });
 
     // ####################################################################################
 
