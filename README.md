@@ -9,9 +9,10 @@ The project uses [PhotonKit](https://github.com/connors/photon) for Mac-style UI
 ### Usage
 
 1. Clone this repo by running `git clone git@github.com:ricardoalcocer/electron_scaffolding.git`
-2. Install dependencies by running `npm install`
-3. Start the project by running `npm start`
-4. Package the app by running `npm run package-mac`
+2. Go to newly created folder `cd electron_scaffolding`
+3. Install dependencies by running `npm install`
+4. Start the project by running `npm start`
+5. Package the app by running `npm run package-mac`
 
 ### Project structure
 
