@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Electron Scaffolding</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../../assets/css/photon.min.css">
+    <link rel="stylesheet" href="mainwindow.css">
+</head>
+<body>
+
+    <div class="window">
+        <!-- .toolbar-header sits at the top of your app -->
+        <header class="toolbar toolbar-header">
+            <h1 class="title">Electron Scaffolding</h1>
+            <div class="toolbar-actions">
+
+        </header>
+
+        <!-- Your app's content goes inside .window-content -->
+        <div class="window-content">
+            <div class="media-body mainWinFrame">
+                <p>Something should go here</p>
+                <p><button id="thealertbutton"  class="btn btn-primary">1click me for alert</button></p>
+                <p><button id="theuibutton"     class="btn btn-primary">click me for ui feedback</button></p>
+                <p><button id="thebridgebutton" class="btn btn-primary">click me for bridge demo</button></p>
+                <div id="uifeedback"></div>
+            </div>
+        </div>
+
+        <footer class="toolbar toolbar-footer">
+          <div class="footerText">App is ready.</div>
+        </footer>
+    </div>
+    <script src="../../bindings/mainwindow.js"></script>
+</body>
+</html>
