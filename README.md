@@ -33,6 +33,7 @@ The project uses [PhotonKit](https://github.com/connors/photon) for Mac-style UI
 📁 controllers
     📄 mainwindow.js                Controller code
 📁 lib                              Shared libraries
+    📄 appfunctions.js                
 📁 menus
     📄 mainwindow.js                Menu files
 📁 views
@@ -56,3 +57,4 @@ The project uses [PhotonKit](https://github.com/connors/photon) for Mac-style UI
 - [Put your app on the system tray](https://electronjs.org/docs/api/tray)
 - [Generate App Icons](https://www.npmjs.com/package/electron-icon-maker)
 - [Blog post about app Icons issues](https://medium.com/fantageek/changing-electron-app-icon-acf26906c5ad)
+- [App Security Considerations](https://github.com/electron/electron/blob/master/docs/tutorial/security.md)
