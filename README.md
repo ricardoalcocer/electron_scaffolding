@@ -12,6 +12,7 @@ The project uses [PhotonKit](https://github.com/connors/photon) for Mac-style UI
 2. Go to newly created folder `cd electron_scaffolding`
 3. Install dependencies by running `npm install`
 4. Start the project by running `npm start`
+5. Install asar `npm install -g asar` (to pack the source code into a single file)
 5. Package the app by running `npm run package-mac`
 
 ### Project structure
