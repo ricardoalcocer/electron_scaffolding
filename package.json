@@ -18,12 +18,12 @@
   "author": "Ricardo Alcocer",
   "license": "MIT",
   "dependencies": {
-    "electron": "^5.0.1",
+    "electron": "^9.1.0",
     "electron-window": "^0.8.1",
     "fs": "0.0.1-security"
   },
   "devDependencies": {
-    "electron": "^5.0.1",
+    "electron": "^9.1.0",
     "electron-builder": "^20.40.2",
     "electron-packager": "^13.1.1"
   }
